@@ -3,7 +3,7 @@ function $(name) {
 }
 var xhr = new XMLHttpRequest();
 $('button').addEventListener("click", function () {
-    window.open('http://portal.uestc.edu.cn/');
+    window.open('http://eams.shanghaitech.edu.cn');
 });
 
 function switchBtn(opt) {

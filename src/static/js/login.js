@@ -100,7 +100,7 @@ function setBackground() {
     var today = new Date;
     var month = today.getMonth() + 1;
     var day = today.getDate();
-    $('#wrap').style.backgroundImage = "url('http://img.infinitynewtab.com/InfinityWallpaper/" + month + "_" + day + ".jpg')";
+    $('#wrap').style.backgroundImage = "url('http://img.infinitynewtab.com/wallpaper/" + month + day + ".jpg')";
 }
 
 var data = getData();
@@ -123,7 +123,7 @@ function needCaptcha() {
     var time = new Date().getTime();
     ajax({
         method: 'GET',
-        url: 'http://idas.uestc.edu.cn/authserver/needCaptcha.html?username=' + username + '&_=' + time,
+        url: 'http://ids.shanghaitech.edu.cn/authserver/needCaptcha.html?username=' + username + '&_=' + time,
         handler: function (res) {
             if (res.match('true')) {
                 $('#captcha-div').classList.remove('hidden');

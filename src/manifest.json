@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "电子科大教务助手",
+    "name": "上科大教务助手",
     "description": "查询成绩，考试通知，课程表",
-    "version": "0.17.5.21",
+    "version": "0.17.7.13",
     "permissions": [
-        "http://idas.uestc.edu.cn/*",
-        "http://eams.uestc.edu.cn/*",
+        "http://ids.shanghaitech.edu.cn/*",
+        "http://eams.shanghaitech.edu.cn/*",
         "http://img.infinitynewtab.com/*",
         "tabs",
         "storage",
@@ -17,7 +17,7 @@
     },
     "content_scripts": [{
             "matches": [
-                "http://idas.uestc.edu.cn/authserver/login*"
+                "http://ids.shanghaitech.edu.cn/authserver/login*"
             ],
             "css": [
                 "static/css/login.css"
@@ -29,7 +29,7 @@
         },
         {
             "matches": [
-                "http://portal.uestc.edu.cn/*"
+                "http://eams.shanghaitech.edu.cn/*"
             ],
             "css": [
                 "static/css/content.css"

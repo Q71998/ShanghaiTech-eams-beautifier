@@ -10,11 +10,11 @@
     #class-block {
         box-shadow: none;
         transform: scale(0.9, 0.9);
-        -webkit-transform-origin: top;
+        /*-webkit-transform-origin: top;
         transform-origin: top;
         width: 90%;
         margin: auto;
-        margin-top: 0.5cm;
+        margin-top: 0.5cm;*/
     }
     #wrap {
         width: 100%;
@@ -259,7 +259,8 @@ td {
 .td-block {
     font-size: 14px;
     vertical-align: top;
-    min-width: 200px;
+    min-width: 50px;
+    border: 1px #ddd solid
 }
 
 .head {
@@ -283,14 +284,17 @@ td {
 }
 
 .course-box {
-    height: auto;
-    width: 200px;
+    height: 130px;
+    /*width: auto;*/
+    background-color: #f0f0f0;
+    min-width: 180px;
     padding: 15px;
     font-size: 12px;
     box-sizing: border-box;
 }
 
 .title {
+    vertical-align: left;
     font-size: 16px;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
 }

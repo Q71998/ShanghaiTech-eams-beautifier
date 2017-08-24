@@ -107,12 +107,12 @@ h1 {
 }
 
 .logo-ico {
-  height: 64px;
-  width: 281px;
+  height: 80px;
+  width: 290px;
   position: absolute;
-  top: 18px;
+  top: 12px;
   left: 10%;
-  background: url(http://www.uestc.edu.cn/images/logo.png)no-repeat;
+  background: url(http://ids.shanghaitech.edu.cn/authserver/custom/login/images/logo.png)no-repeat;
 }
 
 .login-other {
